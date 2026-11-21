@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "PocketLM",
+    "slug": "pocketlm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-document-picker"
+    ]
+  }
+}
