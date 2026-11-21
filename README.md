@@ -3,6 +3,13 @@
 PocketLM is a mobile document-chat app. Ask questions about PDF and text files,
 resume previous conversations, and view uploaded documents in the Library.
 
+## Screenshots
+
+<p align="center">
+  <img src="./pocketlm1.jpeg" alt="PocketLM chat screen" width="300">
+  <img src="./pocketlm.jpeg" alt="PocketLM chat history and Library drawer" width="300">
+</p>
+
 The Expo React Native app talks to a FastAPI backend. LangGraph coordinates
 retrieval and answer generation, Groq provides chat completions, Cohere creates
 document and query embeddings, and SQLite stores the document index and
@@ -108,5 +115,4 @@ For a physical phone, use the PC's Wi-Fi IPv4 address instead.
 
 For more backend setup details, see [backend/README.md](./backend/README.md).
 
-This project is intended for local development. Add authentication, rate
-limits, and production deployment safeguards before exposing the API publicly.
+This project is intended for local development. Add authentication, rate limits, and production deployment safeguards before exposing the API publicly.
