@@ -5,10 +5,9 @@ resume previous conversations, and view uploaded documents in the Library.
 
 ## Screenshots
 
-<p align="center">
-  <img src="./pocketlm1.jpeg" alt="PocketLM chat screen" width="300">
-  <img src="./pocketlm.jpeg" alt="PocketLM chat history and Library drawer" width="300">
-</p>
+![PocketLM chat screen](./pocketlm1.jpeg)
+
+![PocketLM chat history and Library drawer](./pocketlm.jpeg)
 
 The Expo React Native app talks to a FastAPI backend. LangGraph coordinates
 retrieval and answer generation, Groq provides chat completions, Cohere creates
